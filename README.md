@@ -1,4 +1,4 @@
-A date under the stunningly gorgeous Fractal Trees. 
+A date under a stunningly gorgeous Fractal Tree. 
 
 Clone the repo to experiment with them. 
 
