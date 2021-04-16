@@ -44,14 +44,18 @@ function branch(len)
   line(0,0,0,-len); 
   translate(0,-len);
   
-  if(len > 4)
+  if(len > 2)
   {
     push();
     rotate(angle);
     branch(len *0.67);
     pop();
+    push();
     rotate(-angle);
     branch(len*0.67);
+    pop();
+  
+    
   }
   // line(0,0,0,-len *0.67);
   // rotate(-PI/2);
